@@ -13,7 +13,7 @@ async function bootstrap() {
       whitelist: true,
       forbidNonWhitelisted: true,
       transform: true,
-      // Configuracion para hacer la conversion de los query params automaticamente por el tipo definido en el dto
+      // Configuracion para hacer la conversion de los query params automaticamente por el tipo definido en el dto.
       transformOptions: {
         enableImplicitConversion: true
       }
